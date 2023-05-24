@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Single Day';
+    src: url('../../public/SingleDay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../../public/DMSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../public/Roboto-Regular.ttf');
+}
+
+.conainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.LeftSide img {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.LeftSide p {
+    position: absolute;
+    margin-top: 37%;
+    font-size: 85px;
+    color: white;
+    padding-left: 130px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 141.69%;
+    letter-spacing: 0.02em;
+}
+
+.RightSide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    top: 0px;
+    background-color: black;
+  
+}
+
+.Super {
+    font-size: 72px;
+    text-align: center;
+    color: #72DB73;
+    font-family: 'Single Day';
+    font-weight: 400;
+
+}
+
+.Acount {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+
+}
+
+.name {
+    height: 65px;
+    width: 600px;
+    margin-left: 28%;
+    padding: 10px;
+    padding-left: 30px;
+    letter-spacing: 0.02em;
+    background-color: #292929;
+    border-radius: 3px;
+    border: 1px solid #292929;
+    font-size: 25px;
+
+
+}
+
+.mobile {
+    height: 65px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 28%;
+    padding: 10px;
+    padding-left: 30px;
+    letter-spacing: 0.02em;
+    background-color: #292929;
+    border-radius: 3px;
+    border: 1px solid #292929;
+    font-size: 25px;
+
+
+}
+
+.userName {
+    height: 65px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 28%;
+    padding: 10px;
+    padding-left: 30px;
+    letter-spacing: 0.02em;
+    background-color: #292929;
+    border-radius: 3px;
+    border: 1px solid #292929;
+    font-size: 25px;
+
+
+}
+
+.email {
+    height: 65px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 28%;
+    padding: 10px;
+    padding-left: 30px;
+    letter-spacing: 0.02em;
+    background-color: #292929;
+    border-radius: 3px;
+    border: 1px solid #292929;
+    font-size: 25px;
+
+
+}
+
+.Check_Share {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 28%;
+}
+
+.Check_Share input {
+    height: 18px;
+    width: 18px;
+    margin-top: 34px;
+    background: #D9D9D9;
+}
+
+.Check_Share p {
+
+    color: #7C7C7C;
+    font-size: 25px;
+    margin-left: 1%;
+    font-family: 'DM Sans';
+
+}
+
+.btn {
+    height: 70px;
+    width: 650px;
+    padding: 10px;
+    margin-left: 28%;
+    font-size: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    background: #72DB73;
+    color: #FFFFFF;
+    border-radius: 28px;
+    letter-spacing: 0.02em;
+}
+
+.TandC {
+    color:  #7C7C7C;;
+    margin-left:28%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    /* line-height: 1.5em; */
+}
+
+.TandC span {
+    color: #72DB73;
+}
+.Privacy {
+    color:  #7C7C7C;
+    margin-top: 0px;
+    margin-left:28%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.02em;
+    /* line-height: 1.5em; */
+}
+
+.Privacy span {
+    color: #72DB73;
+}
